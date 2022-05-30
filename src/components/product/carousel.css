@@ -1,0 +1,46 @@
+.carousel {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background: url('../../images/section3-image.png') no-repeat 0% 0% ;
+    color: #fff;
+}
+
+.indicators {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+#prev {
+    background:url('../../images/Icon feather-arrow-left-circle.svg') no-repeat;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#next {
+    background:url('../../images/Icon feather-arrow-right-circle.svg') no-repeat;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
